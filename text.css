@@ -3,13 +3,20 @@ body {
 }
 input[type=button], input[type=submit] {
   background-color: #04AA6D;
-  border: none;
+  border: 2px solid white;
   color: white;
   padding: 5px 5px;
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
 }
+input [type=text], input[type=text]
+{
+  padding: 2px;
+  margin: 5px;
+  border: 4px groove;
+}
+
 table{
   background-color:#f2f2d1; 
 }
